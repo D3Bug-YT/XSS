@@ -1,1 +1,0 @@
-http://localhost:3000/theme.html#theme=%3Cimg%20src%3Dnope%20onerror%3D%22alert('DOM%20XSS')%22%3E

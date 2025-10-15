@@ -1,0 +1,12 @@
+[1] https://www.bugcrowd.com/glossary/cross-site-scripting-xss/
+[2] https://owasp.org/www-project-top-ten/
+[3] https://www.fortinet.com/resources/cyberglossary/web-security-threats
+[4] https://www.strikegraph.com/blog/what-is-a-pen-test
+[5] https://owasp.org/www-community/attacks/xss/
+[6] https://www.ionos.com/digitalguide/websites/web-development/an-introduction-to-the-document-object-model-dom/
+[7] https://www.techtarget.com/searchsecurity/definition/proof-of-concept-PoC-exploit
+[8] https://www.netcraft.com/blog/hackers-still-exploiting-ebays-stored-xss-vulnerabilities-in-2017
+[9] https://blog.checkpoint.com/research/ebay-platform-exposed-to-severe-vulnerability/
+[10] https://www.securityweek.com/ebay-flaw-exposes-users-malware-phishing-attacks/
+[11] https://blog.scottlogic.com/rsillem/assets/security-xss/stored-xss.png
+[12] https://www.youtube.com/watch?v=m4vJxsoYGhY

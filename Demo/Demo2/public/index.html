@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Stored XSS Demo</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; background: #f4f6fb; color: #222; }
+    .card { background: #fff; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.1); max-width: 600px; margin: auto; margin-bottom: 1rem; }
+    h1 { font-size: 1.5rem; }
+    textarea { width:100%; height:100px; padding:0.5rem; font-size:1rem; border:1px solid #ccc; border-radius:6px; }
+    button { margin-top:1rem; padding:0.6rem 1.2rem; font-size:1rem; border:none; background:#4a6ee0; color:white; border-radius:6px; cursor:pointer; }
+    button:hover { background:#3653b8; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Make a Post</h1>
+    <form id="postForm" method="POST" action="/new">
+      <textarea name="content" placeholder="Write something... HTML allowed!"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div id="feed">
+  </div>
+</body>
+</html>
